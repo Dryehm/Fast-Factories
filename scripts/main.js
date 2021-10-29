@@ -1,19 +1,19 @@
 Events.on(ClientLoadEvent, b  => {
-Blocks.graphitePress.craftTime=45;
-Blocks.multiPress.outputItem=3;
-Blocks.multiPress.craftTime=15;
+Blocks.graphitePress.craftTime = 45;
+Blocks.multiPress.outputItem = 3;
+Blocks.multiPress.craftTime = 15;
 Blocks.siliconSmelter.craftTime = 30;
 Blocks.siliconSmelter.consumes.items(ItemStack.with(Items.coal, 1, Items.sand, 1));
 Blocks.siliconCrucible.craftTime = 30;
 Blocks.siliconCrucible.consumes.items(ItemStack.with(Items.coal, 4, Items.sand, 5, Items.pyratite, 1));
-Blocks.kiln.craftTime=20;
+Blocks.kiln.craftTime = 20;
 Blocks.plastaniumCompressor.craftTime=30;
 Blocks.plastaniumCompressor.consumes.liquid(Liquids.oil, 0.2);
-Blocks.phaseWeaver.craftTime=45;
+Blocks.phaseWeaver.craftTime = 45;
 Blocks.phaseWeaver.consumes.items(ItemStack.with(Items.thorium, 2, Items.sand, 5));
-Blocks.surgeSmelter.craftTime=50;
+Blocks.surgeSmelter.craftTime = 50;
 Blocks.surgeSmelter.consumes.items(ItemStack.with(Items.copper, 2, Items.lead, 3, Items.titanium, 1, Items.silicon, 2));
-Blocks.cryofluidMixer.craftTime=60;
+Blocks.cryofluidMixer.craftTime = 60;
 Blocks.cryofluidMixer.consumes.liquid(Liquids.water, 0.1);
 Blocks.pyratiteMixer.consumes.items(ItemStack.with(Items.coal, 1, Items.lead, 1, Items.sand, 1));
 Blocks.separator.craftTime=10;
