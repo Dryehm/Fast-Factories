@@ -1,5 +1,6 @@
 Events.on(ClientLoadEvent, b  => {
 Blocks.graphitePress.craftTime = 45;
+Blocks.multiPress.outputItem = ItemStack(Items.graphite, 3);
 Blocks.multiPress.craftTime = 15;
 Blocks.siliconSmelter.craftTime = 30;
 Blocks.siliconSmelter.consumes.items(ItemStack.with(Items.coal, 1, Items.sand, 1));
